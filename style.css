@@ -798,6 +798,7 @@ font-family: 'Roboto', sans-serif;*/
   content: "";
   position: absolute;
   width: 290px;
+  height: 370px;
   right: -130px;
   bottom: -150px;
   background-repeat: no-repeat;
@@ -862,7 +863,7 @@ font-family: 'Roboto', sans-serif;*/
   position: relative;
 }
 
-.question__checkbox:checked + .question__lable-checkbox {
+.question__checkbox + .question__lable-checkbox {
   user-select: none;
 }
 
